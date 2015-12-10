@@ -1,0 +1,25 @@
+{
+    "name": "sajibasm/php-couchdb",
+    "description": "PHP couchdb library.",
+    "homepage": "https://github.com/sajibasm/php-couchdb.git",
+    "license": "Unlicense",
+    "keywords": [
+        "php", "couchdb", "couch", "api", "library", "couchdb client", "orm"
+    ],
+
+    "authors": [
+        {
+            "name": "ASM Mobarak Hossain (sajibasm)"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "SAJIB\\CouchDB\\": "src/"
+        }
+    }
+}
